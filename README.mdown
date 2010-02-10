@@ -1,0 +1,18 @@
+Using PTKeychain
+===================================
+
+1. Add file PTKeychain.h and PTKeychain.m into your project.
+2. Import file (#import "PTKeychain.h").
+3. Add, change or remove passwords.
+
+a) Add password:
+	[PTKeychain addKeychainPassword:@"Password" withLabel:@"Your application name: Service" forAccount:@""];
+
+b) Change password:
+	[PTKeychain modifyKeychainPassword:@"Password" withLabel:@"Your application name: Service" forAccount:@""];
+
+c) Remove password from Keychain:
+	[PTKeychain deleteKeychainPasswordForLabel:@"Your application name: Service" account:@""];
+	
+d) Check exists for keychain item:
+	[PTKeychain keychainExistsWithLabel:@"Your application name: Service" forAccount:@""];
