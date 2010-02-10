@@ -17,3 +17,6 @@ Remove password from Keychain
 	
 Check exists for keychain item
 	[PTKeychain keychainExistsWithLabel:@"Your application name: Service" forAccount:@""];
+	
+Get password
+	[PTKeychain passwordForLabel:@"Your application name: Service" account:@""];
