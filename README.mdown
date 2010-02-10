@@ -4,7 +4,7 @@ Using PTKeychain
 Add files PTKeychain.h and PTKeychain.m into your project
 
 Import class
-#import "PTKeychain.h"
+	import "PTKeychain.h"
 
 Add password
 	[PTKeychain addKeychainPassword:@"Password" withLabel:@"Your application name: Service" forAccount:@""];
