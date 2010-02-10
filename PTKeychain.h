@@ -1,3 +1,7 @@
+//
+// Copyright 2009 Positive Team
+//
+
 #import <Cocoa/Cocoa.h>
 #import <Security/Security.h>
 #import <CoreFoundation/CoreFoundation.h>

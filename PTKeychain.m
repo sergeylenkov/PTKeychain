@@ -1,3 +1,7 @@
+//
+// Copyright 2009 Positive Team
+//
+
 #import "PTKeychain.h"
 
 @implementation PTKeychain
